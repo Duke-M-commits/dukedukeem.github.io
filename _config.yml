@@ -23,10 +23,10 @@ timezone:
 
 title: Wiki                          # the main title
 
-tagline: Alien Swarm:: Reactive Drop   # it will display as the sub-title
+tagline: "Alien Swarm: Reactive Drop"   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  The Alien Swarm:: Reactive Drop Wiki
+  "The Alien Swarm: Reactive Drop Wiki"
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://dukedukeem.github.io'
