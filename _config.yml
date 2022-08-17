@@ -201,9 +201,8 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-jekyll-polyglot:
-  languages: ["de", "en", "ru"]
-  default_lang: "en"
-  exclude_from_localization: ["_data", "_includes", "_plugins", "_sass", "_site", "_tabs", ".github", ".jekyll-cache", "assets", "tools"]
-  parallel_localization: false
-  lang_from_path: true
+languages: ["de", "en", "ru"]
+default_lang: "en"
+exclude_from_localization: ["_data", "_includes", "_plugins", "_sass", "_site", "_tabs", ".github", ".jekyll-cache", "assets", "tools"]
+parallel_localization: false
+lang_from_path: true
