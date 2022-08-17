@@ -16,7 +16,7 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Europe/Vienna
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -169,6 +169,7 @@ defaults:
       swcache: true
 
 sass:
+  sourcemap: never
   style: compressed
 
 compress_html:
@@ -199,3 +200,9 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+languages: ["de", "en", "ru"]
+default_lang: "en"
+exclude_from_localization: ["_data", "_includes", "_plugins", "_sass", "_site", "_tabs", ".github", ".jekyll-cache", "assets", "tools"]
+parallel_localization: false
+lang_from_path: true
